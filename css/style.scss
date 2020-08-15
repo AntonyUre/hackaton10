@@ -1,6 +1,6 @@
 *{
     outline: none;
-    behavior: ;
+    scroll-behavior: smooth;
 }
 body {
     height: 100vh;
@@ -140,6 +140,7 @@ aside{
     background: linear-gradient(to top, rgb(40, 123, 175) ,rgb(0, 121, 235)); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: red;
 }
 /* FOOTER */
 footer{
