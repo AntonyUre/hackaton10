@@ -46,7 +46,7 @@
                 </nav>
             </header>
             <footer>
-                <p>Powered <img src="https://image.flaticon.com/icons/svg/740/740845.svg" width="15" alt=""> by <a href="http://antonyur.com" target="blank">AntonyU</a></p>
+                <p>Powered <img src="https://image.flaticon.com/icons/svg/740/740845.svg" width="15" alt=""> by <a href="#" target="blank">AntonyU</a></p>
             </footer>
         </aside>
         <div class="box-container">
@@ -58,10 +58,10 @@
                             nombre, apellido y edad y los retorne en un string concatenado “Hola mi
                             nombre es sebastián yabiku y mi edad 33”</p>
                     </div>
-                    <div class="operation">
-                        <input class="input" id="a-1" type="text" placeholder="Ingesar Nombre">
-                        <input class="input" id="b-1" type="text" placeholder="Ingesar Apellido">
-                        <input class="input" id="c-1" type="number" placeholder="Ingesar Edad">
+                    <div class="operation block">
+                        <input class="input" id="a-1" type="text" placeholder="Nombre">
+                        <input class="input" id="b-1" type="text" placeholder="Apellido">
+                        <input class="input" id="c-1" type="number" placeholder="Edad">
                     </div>
                     <div class="box-reply">
                         <p>Tu respuesta es</p>
@@ -71,15 +71,16 @@
                         <button  class="send" type="submit" id="boton" value="sumar"   onclick="challenge1()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="2">
                     <div class="box-text">
                         <h2>02</h2>
                         <p class="description">Cree una función que tome números y devuelva la suma de sus cubos.</p>
                     </div>
-                    <div class="operation">
-                        <input class="input" id="a-2" type="number" placeholder="Examen N° 1">
-                        <input class="input" id="b-2" type="number" placeholder="Examen N° 2">
-                        <input class="input" id="c-2" type="number" placeholder="Examen N° 3">     
+                    <div class="operation block">
+                        <input class="input" id="a-2" type="number" placeholder="N° 1">
+                        <input class="input" id="b-2" type="number" placeholder="N° 2">
+                        <input class="input" id="c-2" type="number" placeholder="N° 3">     
                     </div>
                     <div class="box-reply">
                         <p>Tu Promedio es</p>
@@ -89,23 +90,25 @@
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge2()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="3">
                     <div class="box-text">
                         <h2>03</h2>
                         <p class="description">Crear una funcion que me retorne el tipo de valor entregado, utilizar la función
                             e imprimir los distintos tipos de JS.</p>
                     </div>
-                    <div class="operation">
-                        <input class="input" id="a-3" type="text" placeholder="Ingesar Base">    
+                    <div class="operation block">
+                        <input class="input" id="a-3" type="text" placeholder="abc" disabled>    
                     </div>
                     <div class="box-reply">
                         <p>Tu respuesta es</p>
-                        <input type="text" class="reply" id="reply3" disabled>
+                        <input class="reply" id="reply3" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge3()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="4">
                     <div class="box-text">
                         <h2>04</h2>
@@ -113,17 +116,20 @@
                             parametros rest)</p>
                     </div>
                     <div class="operation">
-                        <input class="input" id="a-4" type="number" placeholder="Ingesar Base">
-                        <input class="input" id="b-4" type="number" placeholder="Ingesar Altura">     
+                        <input class="input" id="a-4" type="number" placeholder="Ingesar argumento">
+                        <input class="input" id="b-4" type="number" placeholder="Ingesar argumento">     
+                        <input class="input" id="c-4" type="number" placeholder="Ingesar argumento">
+                        <input class="input" id="d-4" type="number" placeholder="Ingesar argumento">     
                     </div>
                     <div class="box-reply">
-                        <p>Tu respuesta es</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply4" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge4()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="5">
                     <div class="box-text">
                         <h2>05</h2>
@@ -131,7 +137,7 @@
                             son string</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-5" type="number" placeholder="Ingesar radio">  
+                        <!-- <input class="input" id="a-5" type="text" placeholder="Ingesar radio"> -->
                     </div>
                     <div class="box-reply">
                         <p>Tu respuesta es</p>
@@ -141,6 +147,7 @@
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge5()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="6">
                     <div class="box-text">
                         <h2>06</h2>
@@ -148,16 +155,17 @@
                             mínimos y máximos, en ese orden.</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-6" type="number" placeholder="Ingesar horas"> 
+                        <input class="input" id="a-6" type="text" placeholder="Ingesar numeros"> 
                     </div>
                     <div class="box-reply">
-                        <p>Tu respuesta es</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply6" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge6()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="7">
                     <div class="box-text">
                         <h2>07</h2>
@@ -165,33 +173,37 @@
                             una cadena en forma de un número de teléfono.</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-7" type="number" placeholder="Ingesar medida"> 
+                        <input class="input" id="a-7" type="text" placeholder="Ingesar 9 numeros"> 
                     </div>
                     <div class="box-reply">
-                        <p>Tu respuesta es</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply7" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge7()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="8">
                     <div class="box-text">
                         <h2>08</h2>
-                        <p class="description">. Cree una función que tome una matriz de matrices con números. Devuelve una
+                        <p class="description">Cree una función que tome una matriz de matrices con números. Devuelve una
                             nueva matriz (única) con el mayor número de cada uno.</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-8" type="number" placeholder="Ingesar Soles"> 
+                        <input class="input" id="a-8" type="number" placeholder="4, 2, 7, 1" disabled> 
+                        <input class="input" id="b-8" type="number" placeholder="20, 70, 40, 90" disabled> 
+                        <input class="input" id="c-8" type="number" placeholder="1, 2, 0" disabled> 
                     </div>
                     <div class="box-reply">
-                        <p>Puedes comprar</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply8" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge8()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="9">
                     <div class="box-text">
                         <h2>09</h2>
@@ -199,38 +211,35 @@
                             índice de un carácter.</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-9" type="number" placeholder="Ingesar año de nacimiento"> 
+                        <input class="input" id="a-9" type="text" placeholder="Ingesar una palabra"> 
                     </div>
                     <div class="box-reply">
-                        <p>Tienes</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply9" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge9()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="10">
                     <div class="box-text">
                         <h2>10</h2>
                         <p class="description">Escriba una función que convierta un objeto en una matriz, donde cada
                             elemento representa un par clave-valor.</p>
                     </div>
-                    <div class="operation">
-                        <input class="input" id="a-10" type="text" placeholder="Primer persona"> 
-                        <input class="input" id="b-10" type="number" placeholder="Edad"> 
-                        <input class="input" id="c-10" type="text" placeholder="Segunda persona"> 
-                        <input class="input" id="d-10" type="number" placeholder="Edad"> 
-                        <input class="input" id="e-10" type="text" placeholder="Tercera persona"> 
-                        <input class="input" id="f-10" type="number" placeholder="Edad"> 
+                    <div class="operation block">
+                        <input class="input" id="a-10" type="text" placeholder="Ingresar una palabra">
                     </div>
                     <div class="box-reply">
-                        <p>La persona menor es</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply10" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge10()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="11">
                     <div class="box-text">
                         <h2>11</h2>
@@ -238,16 +247,19 @@
                             presupuestos de las personas.</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-11" type="number" placeholder="Ingesar horas"> 
+                        <input class="input" id="a-11" type="number" placeholder="23000" disabled> 
+                        <input class="input" id="a-11" type="number" placeholder="40000" disabled> 
+                        <input class="input" id="a-11" type="number" placeholder="2700" disabled> 
                     </div>
                     <div class="box-reply">
-                        <p>Tu sueldo semanal es</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply11" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge11()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="12">
                     <div class="box-text">
                         <h2>12</h2>
@@ -255,37 +267,34 @@
                             nombres de estudiantes</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-12" type="number" placeholder="Ingesar años"> 
+                        <input class="input" id="a-12" type="number" placeholder="John Anto Martin" disabled> 
                     </div>
                     <div class="box-reply">
-                        <p>Tienes un incremento de</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply12" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge12()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="13">
                     <div class="box-text">
                         <h2>13</h2>
                         <p class="description">Escriba una función que convierta un objeto en una matriz de claves y valores.</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-13" type="number" placeholder="Ingesar nombre">
-                        <input class="input" id="a-13" type="number" placeholder="Ingesar nota">
-                        <input class="input" id="a-13" type="number" placeholder="Ingesar nombre">
-                        <input class="input" id="a-13" type="number" placeholder="Ingesar nota">
-                        <input class="input" id="a-13" type="number" placeholder="Ingesar nombre">
-                        <input class="input" id="a-13" type="number" placeholder="Ingesar nota">
+                        <input class="input" id="a-13" type="number" placeholder="Consola" disabled>
                     </div>
                     <div class="box-reply">
-                        <p>Aprobaron</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply13" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge13()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="14">
                     <div class="box-text">
                         <h2>14</h2>
@@ -293,18 +302,17 @@
                             números cuadrados incluyendo n.</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-14" type="number" placeholder="Ingesar N° de focos verdes"> 
-                        <input class="input" id="a-14" type="number" placeholder="Ingesar N° de focos blancos"> 
-                        <input class="input" id="a-14" type="number" placeholder="Ingesar N° de focos rojos"> 
+                        <input class="input" id="a-14" type="number" placeholder="2,3,4" disabled>
                     </div>
                     <div class="box-reply">
-                        <p>El stock actual es</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply14" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge14()">Operar</button>
                     </div>
                 </div>
+
                 <div class="question" id="15">
                     <div class="box-text">
                         <h2>15</h2>
@@ -312,14 +320,144 @@
                             cantidad de valores en la matriz dada</p>
                     </div>
                     <div class="operation block">
-                        <input class="input" id="a-15" type="number" placeholder="Ingesar tu edad"> 
+                        <input class="input" id="a-15" type="number" placeholder="2,3,1,0" disabled> 
                     </div>
                     <div class="box-reply">
-                        <p>Tu respuesta es</p>
+                        <p>El resultado es</p>
                         <input type="text" class="reply" id="reply15" disabled>
                     </div>    
                     <div class="box-button">
                         <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge15()">Operar</button>
+                    </div>
+                </div>
+
+                <div class="question" id="16">
+                    <div class="box-text">
+                        <h2>16</h2>
+                        <p class="description block">Cree una función que tome un número como argumento y devuelva una matriz
+                            de números contando desde este número a cero.</p>
+                    </div>
+                    <div class="operation block">
+                        <!-- <input class="input" id="a-16" type="text" >  -->
+                    </div>
+                    <div class="box-reply">
+                        <p>El resultado es</p>
+                        <input type="text" class="reply" id="reply16" disabled>
+                    </div>    
+                    <div class="box-button">
+                        <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge16()">Operar</button>
+                    </div>
+                </div>
+                
+                <div class="question" id="17">
+                    <div class="box-text">
+                        <h2>17</h2>
+                        <p class="description block">Cree una función que tome una matriz y devuelva la diferencia entre los
+                            números más grandes y más pequeños.
+                            </p>
+                    </div>
+                    <div class="operation block">
+                        <!-- <input class="input" id="a-17" type="text" placeholder="Ingesar string">  -->
+                    </div>
+                    <div class="box-reply">
+                        <p>El resultado es</p>
+                        <input type="text" class="reply" id="reply17" disabled>
+                    </div>    
+                    <div class="box-button">
+                        <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge17()">Operar</button>
+                    </div>
+                </div>
+
+                <div class="question" id="18">
+                    <div class="box-text">
+                        <h2>18</h2>
+                        <p class="description block">Cree una función que filtre las cadenas de una matriz y devuelva una nueva
+                            matriz que solo contenga enteros.</p>
+                    </div>
+                    <div class="operation block">
+                        <!-- <input class="input" id="a-18" type="text" placeholder="Ingesar string">  -->
+                    </div>
+                    <div class="box-reply">
+                        <p>El resultado es</p>
+                        <input type="text" class="reply" id="reply18" disabled>
+                    </div>    
+                    <div class="box-button">
+                        <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge18()">Operar</button>
+                    </div>
+                </div>
+
+                <div class="question" id="19">
+                    <div class="box-text">
+                        <h2>19</h2>
+                        <p class="description block">Cree una función que tome dos argumentos (elemento, tiempos). El primer
+                            argumento (elemento) es el elemento que necesita repetirse, mientras que el
+                            segundo argumento (veces) es la cantidad de veces que se debe repetir el
+                            elemento. Devuelve el resultado en una matriz.</p>
+                    </div>
+                    <div class="operation block">
+                        <input class="input" id="a-19" type="text" placeholder="5,5" disabled> 
+                        <!-- <input class="input" id="b-19" type="text" placeholder="Ingesar string">  -->
+                    </div>
+                    <div class="box-reply">
+                        <p>Tu respuesta es</p>
+                        <input type="text" class="reply" id="reply19" disabled>
+                    </div>    
+                    <div class="box-button">
+                        <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge19()">Operar</button>
+                    </div>
+                </div>
+
+                <div class="question" id="20">
+                    <div class="box-text">
+                        <h2>20</h2>
+                        <p class="description block">Escriba una función, .vreplace () que extienda el prototipo de cadena
+                            reemplazando todas las vocales en una cadena con una vocal especificada.</p>
+                    </div>
+                    <div class="operation block">
+                        <!-- <input class="input" id="a-20" type="text" placeholder="Ingesar string">  -->
+                    </div>
+                    <div class="box-reply">
+                        <p>El resultado es</p>
+                        <input type="text" class="reply" id="reply20" disabled>
+                    </div>    
+                    <div class="box-button">
+                        <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge20()">Operar</button>
+                    </div>
+                </div>
+
+                <div class="question" id="21">
+                    <div class="box-text">
+                        <h2>21</h2>
+                        <p class="description block">Te dan una cadena de palabras. Debe encontrar la palabra "Nemo" y devolver
+                            una cadena como esta: "¡Encontré a Nemo en [el orden de la palabra que
+                            encuentra nemo]!".</p>
+                    </div>
+                    <div class="operation block">
+                        <!-- <input class="input" id="a-21" type="text" placeholder="Ingesar string">  -->
+                    </div>
+                    <div class="box-reply">
+                        <p>El resultado es</p>
+                        <input type="text" class="reply" id="reply21" disabled>
+                    </div>    
+                    <div class="box-button">
+                        <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge21()">Operar</button>
+                    </div>
+                </div>
+
+                <div class="question" id="22">
+                    <div class="box-text">
+                        <h2>22</h2>
+                        <p class="description block">Cree una función que capitalice la última letra de cada palabra.</p>
+                    </div>
+                    <div class="operation block">
+                        <input class="input" id="a-22" type="text" placeholder="Ingesar string"> 
+                    </div>
+                    <div class="box-reply">
+                        <p>Tu respuesta es</p>
+                        <input type="text" class="reply" id="reply22" disabled>
+                    </div>    
+                    <div class="box-button">
+                        <button  class="send" type="submit" id="boton" value="sumar" onclick="challenge22()">Operar</button>
                     </div>
                 </div>
             </div>

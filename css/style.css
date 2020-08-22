@@ -25,9 +25,6 @@ h2 {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 20px;
-  /* background: -webkit-linear-gradient(left, red , yellow); */
-  /* background: -o-linear-gradient(right, red, yellow);
-    background: -moz-linear-gradient(right, red, yellow); */
   background: -webkit-gradient(linear, left bottom, left top, from(#287baf), to(#0079eb));
   background: linear-gradient(to top, #287baf, #0079eb);
   -webkit-background-clip: text;
@@ -244,10 +241,6 @@ header::-webkit-scrollbar-thumb {
   display: block;
 }
 
-/* .operation:hover{
-    opacity: 1;
-    transition: 0.5s;
-} */
 .operation p {
   font-weight: bold;
 }
@@ -319,10 +312,6 @@ header::-webkit-scrollbar-thumb {
           transform: scaleX(1);
 }
 
-/* FIN DEL BOTON */
-/* .send:active{
-    background-color: rgb(40, 103, 230);
-} */
 .box-reply p {
   font-size: 18px;
   padding-bottom: 10px;
@@ -333,16 +322,12 @@ header::-webkit-scrollbar-thumb {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0);
+  background: none;
   border: none;
   margin-bottom: 20px;
   font-size: 20px;
   font-weight: bold;
-  background: -webkit-gradient(linear, left bottom, left top, from(#287baf), to(#0079eb));
-  background: linear-gradient(to top, #287baf, #0079eb);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: red;
+  color: #2867e6;
 }
 
 /* FOOTER */

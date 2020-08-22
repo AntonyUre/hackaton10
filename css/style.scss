@@ -20,9 +20,6 @@ h2{
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 20px;
-    /* background: -webkit-linear-gradient(left, red , yellow); */
-    /* background: -o-linear-gradient(right, red, yellow);
-    background: -moz-linear-gradient(right, red, yellow); */
     background: linear-gradient(to top, rgb(40, 123, 175) ,rgb(0, 121, 235)); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -98,10 +95,7 @@ aside{
 .block{
     display: block;
 }
-/* .operation:hover{
-    opacity: 1;
-    transition: 0.5s;
-} */
+
 .operation p{
     font-weight: bold;
 }
@@ -120,10 +114,6 @@ aside{
 @import "./atoms/button";
 
 
-/* FIN DEL BOTON */
-/* .send:active{
-    background-color: rgb(40, 103, 230);
-} */
 .box-reply p{
     font-size: 18px;
     padding-bottom: 10px;
@@ -132,15 +122,12 @@ aside{
 .reply{
     box-sizing: border-box;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0);
+    background: none;
     border: none;
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: bold;
-    background: linear-gradient(to top, rgb(40, 123, 175) ,rgb(0, 121, 235)); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: red;
+    color: rgb(40, 103, 230);
 }
 /* FOOTER */
 footer{
